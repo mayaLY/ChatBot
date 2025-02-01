@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 //DB
 const dbUrl = process.env.DB_URL;
-const database = 'fs-jun24';
+const database = 'chatBotDB';
 
 //connection
 mongoose.connect(`${dbUrl}/${database}`).then(()=>{
